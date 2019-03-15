@@ -28,7 +28,7 @@ p {
   width: 40%;
   margin: 10vh 10vw;
   font-size: 2em;
-  
+
 }
 
 a {
@@ -65,11 +65,13 @@ div.contrast {
 }
 ul {
   list-style: none;
-  display: flex
+  display: flex;
 }
 li {
   margin: 0 20px
   transition: 0.6s ease;
+  line-height: normal;
+  color: blue;
 }
 li:hover {
   font-size: 1.2em;
